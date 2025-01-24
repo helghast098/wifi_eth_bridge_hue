@@ -1,0 +1,9 @@
+menu "Wifi Info Setup"
+    config WIFI_NAME
+        string 
+        prompt "Insert Wifi Name"
+    
+    config WIFI_PASSWORD
+        string
+        prompt "Insert Wifi Password"
+endmenu
